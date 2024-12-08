@@ -6,7 +6,9 @@
 .home-container {
     place-items: center;
     min-width: 100%;
-    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
 }
 
 .home-article {
@@ -29,7 +31,6 @@
 }
 .home-article-btn{
     padding: 0.1rem 1rem;
-    margin: 0 auto;
     font-weight: 700;
     text-decoration: none;
     background-color: var(--accent-color);
