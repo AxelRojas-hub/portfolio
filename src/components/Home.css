@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 95dvh;
+    height: 95dvh;
 }
 
 .home-article {
@@ -58,7 +58,7 @@
     height: 550px;
     background: linear-gradient(135deg, #e6f6ee, #53b363);
     border-radius: 20px;
-    overflow: hidden;
+    overflow:hidden;
     position: relative;
     width: 90%;
 }
@@ -67,7 +67,7 @@
     color: #ffffff50;
     margin: 0;
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 5.8rem;
 }
 
 .blob-trebol {
