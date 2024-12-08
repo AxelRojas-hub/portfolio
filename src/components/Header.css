@@ -2,13 +2,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0.6rem 1.3rem;
+    padding: 1rem 5%;
 }
 
 .header-title {
     color: #242424;
     width: 100%;
-    margin: 20px auto;
+    margin:0;
     letter-spacing: -0.3em;
     font-size: 2.5rem;
     text-wrap: balance;
@@ -16,13 +16,12 @@
 }
 
 .header-title-accent {
-    color: #53b383;
+    color: #1c8911;
     z-index: 0;
 }
 
 .header-hamburguer {
     font-size: 1.7rem;
     color: #242424;
-    font-weight: 900;
-    margin: 6px 0;
+    margin: 0;
 }

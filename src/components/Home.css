@@ -1,38 +1,60 @@
+:root {
+    --primary-color: #242424;
+    --secondary-color: #e6f6ee;
+    --accent-color: #1c8911;
+}
 .home-container {
     place-items: center;
     min-width: 100%;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 .home-article {
-    color: #242424;
+    color: var(--primary-color);
     text-align: left;
-    margin-top:2.4rem;
+    margin-top:1.5rem;
     width: 90%;
 }
-
+.home-article-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 .home-article-title {
     font-size: 1.2rem;
     font-weight: 700;
     margin: 0;
     margin-bottom: 0;
 }
+.home-article-btn{
+    padding: 0.1rem 1rem;
+    margin: 0 auto;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--accent-color);
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
 
 .home-article-text {
     font-size: 0.9rem;
     text-wrap: pretty;
-    margin: 0.8rem 0;
+    margin: 0.75rem 0;
 }
 
 .blob {
     display: flex;
     padding: 0.3rem;
-    max-width: 600px;
+    max-width: 640px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 550px;
-    background: linear-gradient(135deg, #e6f6ee, #60d69b);
+    background: linear-gradient(135deg, #e6f6ee, #53b363);
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -54,11 +76,6 @@
 }
 
 .home-article__accent {
-    color: #60d69b;
+    color: var(--accent-color);
     font-weight: 700;
 }
-
-/* #e6f6ee
-8bcfad
-background: linear-gradient(135deg, #e6f6ee, #8bcfad, rgb(0 165 80 / var(--tw-text-opacity)));
-rgb(0 165 80 / var(--tw-text-opacity)) */
