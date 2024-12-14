@@ -72,12 +72,64 @@
 
 .blob-trebol {
     position: absolute;
-    width: 150%;
     max-width: 600px;
-    bottom: -30%;
+    bottom: -10%;
 }
 
 .home-article__accent {
     color: var(--accent-color);
     font-weight: 700;
+}
+
+
+@media(min-width: 768px){
+    .home-container{
+        padding: 0 5%;
+    }
+    .blob{
+        height: 550px;
+        width: 600px;
+        padding:0;
+    }
+    .blob-title{
+        font-size: 7rem;
+    }
+    .blob-trebol{
+        width: 450px;
+        bottom: -15%;
+    }
+    .home-article{
+        width: 80%;
+        max-width: 600px;
+    }
+    .home-article-header{
+        margin-bottom: 1rem;
+    }
+    .home-article-title{
+        font-size: 1.8rem;
+    }
+    .home-article-text{
+        font-size: 1.2rem;
+    }
+}
+@media(min-width:1024px) {
+    .home-container {
+        flex-direction: row-reverse;
+    }
+
+    .blob {
+        height: 550px;
+        width: 600px;
+        padding: 0;
+    }
+    .blob-title{
+        font-size: 6rem;
+    }
+    .home-article {
+        margin: 0;
+        width: 60%;
+    }
+    .home-article-text{
+        margin-top: 1.5;
+    }
 }
