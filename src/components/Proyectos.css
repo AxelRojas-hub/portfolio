@@ -9,6 +9,7 @@
 }
 /* BENTO GRID */
 .proyectos-grid {
+    padding: 0 0.5rem;
     display: grid;
     margin-top: 5rem;
     height: 60dvh;

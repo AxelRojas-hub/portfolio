@@ -1,10 +1,10 @@
 .contacto-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 2rem 0;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 85dvh;
 }
 
@@ -13,15 +13,9 @@
     text-align: left;
 }
 .contacto-title {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: var(--primary-color);
-    margin-bottom: 0 ;
-}
-.contacto-subtitle{
-    font-size: 2rem;
-    margin-top: 0;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
+    margin: 0 ;
 }
 .contacto-list {
     list-style-type: none;
@@ -40,4 +34,38 @@
 .contacto-list-item span {
     margin-right: 1rem;
     font-size: 2rem;
+}
+.contacto-card{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    aspect-ratio: 4/3;
+    width: 100%;
+    max-width: 640px;
+    background-color: #DBFCD9;
+    color: #094106;
+    border-radius: 40px;
+}
+.contacto-article{
+    width: 100%;
+}
+.contacto-card-img{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 12rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid ;
+}
+.contacto-card-title{
+    font-size: 3rem;
+    margin:0;
+}
+.contacto-card-text{
+    text-wrap: pretty;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: 90%;
 }
