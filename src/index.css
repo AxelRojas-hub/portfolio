@@ -5,14 +5,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #f9f9f9;
-  /* background-color: #242424; */
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  --primary-color: #fff;
+  --bg-color: #000;
+  --secondary-color: #e6f6ee;
+  --accent-color: #1c8911;
 }
 
 #root {
@@ -21,6 +24,15 @@
   width: 100%;
   min-height: 100dvh;
 }
-body{
+
+body {
   margin: 0;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #242424;
+    --bg-color:white
+    color: #213547;
+    background-color: white;
+  }
 }

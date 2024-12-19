@@ -4,6 +4,7 @@ import './index.css'
 import Header from './components/Header'
 import Home from './components/Home'
 import Proyectos from './components/Proyectos'
+import Contacto from './components/Contacto'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -11,5 +12,6 @@ createRoot(document.getElementById('root')!).render(
     <Header/>
     <Home/>
     <Proyectos/>
+    <Contacto/>
   </StrictMode>,
 )

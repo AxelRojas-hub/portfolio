@@ -1,19 +1,13 @@
-:root {
-    --primary-color: #242424;
-    --secondary-color: #e6f6ee;
-    --accent-color: #1c8911;
-}
-
 .proyectos-container{
     padding: 9dvh 0;
     height: 82dvh;
 } 
 .proyectos-title{
     font-size: 3rem;
-    color: black;
+    color: var(--primary-color);
     text-decoration: underline #1b891194;
 }
-
+/* BENTO GRID */
 .proyectos-grid {
     display: grid;
     margin-top: 5rem;
@@ -28,6 +22,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    box-shadow: 0px 3px 0px 1px white;
 }
 .proyectos-card:nth-child(1) {
     background-color: #114B11;
@@ -48,7 +43,7 @@
 
 .proyectos-card:nth-child(3) {
     color: #DBFCD9;
-    background-color: #000;
+    background-color: #141414;
     flex-direction:column;
     grid-area: 1 / 4 / 5 / 6;
     .proyectos-card-img{
@@ -59,6 +54,7 @@
 }
 
 .proyectos-card:nth-child(4) {
+    box-shadow: none;
     grid-area: 3 / 3 / 5 / 4;
     img {
         width: 100%;
