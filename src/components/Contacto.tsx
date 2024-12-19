@@ -3,7 +3,7 @@ import './Contacto.css';
 const Contacto: React.FC = () => {
 
     return (
-        <section className='contacto-container'>
+        <section className='contacto-container' id='contacto'>
             <div className='contacto-article'>
                 <h1 className='contacto-title'>Contacto</h1>
                 <ul className='contacto-list'>

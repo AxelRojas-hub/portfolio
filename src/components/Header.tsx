@@ -10,9 +10,9 @@ const Header: React.FC = () => {
             </div>
             <nav className='header-navbar'>
                 <ul className='header-navbar-list'>
-                    <li className='header-navbar-item'><a href="#root">Home</a></li>
-                    <li className='header-navbar-item'><a href="#proyectos">Proyectos</a></li>
-                    <li className='header-navbar-item'><a href="#contacto">Contacto</a></li>
+                    <li className='header-navbar-item'><a href="#root">HOME</a></li>
+                    <li className='header-navbar-item'><a href="#proyectos">PROYECTOS</a></li>
+                    <li className='header-navbar-item'><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
