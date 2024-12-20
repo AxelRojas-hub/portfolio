@@ -123,12 +123,18 @@
     .home-article{
         width: 85%;
     }
+    .home-article-title{
+        font-size: 1.3rem;
+    }
     .blob{
         width: 85%;
-        height: 300px;
+        height: 400px;
+    }
+    .blob-title{
+        font-size: 4.4rem;
     }
     .blob-trebol{
-        width: 260px;
+        width: 280px;
         bottom: -2.8rem;
     }
     .home-article-text{
