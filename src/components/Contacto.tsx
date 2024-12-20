@@ -20,8 +20,10 @@ const Contacto: React.FC = () => {
             </div>
             <div className='contacto-card'>
                 <img className='contacto-card-img' src="https://avatars.githubusercontent.com/u/89797191?v=4" alt="Foto de perfil de Axel Rojas" />
+                <article>
                 <h3 className='contacto-card-title'>Sobre mi</h3>
                 <p className='contacto-card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam illo beatae at nihil tenetur blanditiis unde, earum numquam ipsam sint dolor tempora corporis dolores minus incidunt ab facilis magni.</p>
+                </article>
             </div>
         </section>
     );

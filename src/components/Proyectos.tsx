@@ -31,7 +31,7 @@ const Proyectos: React.FC = () => {
                         </p>
                     </article>
                 </div>
-                <div className='proyectos-card'>
+                <div className='proyectos-card proyectos-trebol'>
                     <img className='proyectos-card-img' src='trebolbento.png' alt='trebol' />
                 </div>
             </div>
