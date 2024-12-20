@@ -115,7 +115,7 @@
         bottom: -3rem;
     }
 }
-@media(max-width:425px) {
+@media(max-width:525px) {
     .home-container{
         padding-top:8px ;
         flex-direction: column-reverse;
