@@ -67,6 +67,20 @@
     color: var(--accent-color);
     font-weight: 700;
 }
+
+.home-article-footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+.home-article-icons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 @media(max-width:1024px){
     .home-container{
         gap: 1.5rem;

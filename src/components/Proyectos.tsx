@@ -34,7 +34,7 @@ const Proyectos: React.FC = () => {
                     </article>
                 </div>
                 <div className='proyectos-card proyectos-trebol'>
-                    <img className='proyectos-card-img' src='trebolbento.png' alt='trebol' />
+                    <img className='proyectos-card-img' src='trebolbento.webp' alt='trebol' />
                 </div>
             </div>
         </section>
