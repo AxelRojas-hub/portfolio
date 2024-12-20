@@ -1,5 +1,9 @@
 import React from 'react';
 import './Contacto.css';
+import { IoIosMail } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaSquareGithub } from "react-icons/fa6";
+
 const Contacto: React.FC = () => {
 
     return (
@@ -8,21 +12,20 @@ const Contacto: React.FC = () => {
                 <h1 className='contacto-title'>Contacto</h1>
                 <ul className='contacto-list'>
                     <li className='contacto-list-item'>
-                        <span role="img" aria-label="email">📧</span> example@example.com
+                        <IoIosMail color='#1c8911' size={'2rem'} title='Icono de mail' style={{ marginRight: '5px' }} /> axelkevinagustinrojas@gmail.com
                     </li>
                     <li className='contacto-list-item'>
-                        <span role="img" aria-label="phone">📞</span> +123456789
+                        <IoLogoLinkedin color='#1c8911' size={'2rem'} title='Icono de LinkedIn' style={{ marginRight: '5px' }} /> linkedin.com/axelkevinagustinrojas
                     </li>
                     <li className='contacto-list-item'>
-                        <span role="img" aria-label="phone">⚙️</span> +123456789
+                        <FaSquareGithub color='#1c8911' size={'2rem'} title='Icono de GitHub' style={{ marginRight: '5px' }} />github.com/AxelRojas-hub
                     </li>
                 </ul>
             </div>
             <div className='contacto-card'>
                 <img className='contacto-card-img' src="https://avatars.githubusercontent.com/u/89797191?v=4" alt="Foto de perfil de Axel Rojas" />
                 <article>
-                <h3 className='contacto-card-title'>Sobre mi</h3>
-                <p className='contacto-card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam illo beatae at nihil tenetur blanditiis unde, earum numquam ipsam sint dolor tempora corporis dolores minus incidunt ab facilis magni.</p>
+                <p className='contacto-card-text'>En estos momentos sigo profundizando en React con TypeScript y el proximo objetivo esta en sumar NextJs y TailwindCss a mi stack.</p>
                 </article>
             </div>
         </section>

@@ -17,6 +17,9 @@ a{
     /* backdrop-filter: blur(5px); */
     z-index: 1000;
 }
+.header p{
+    display: none;
+}
 .header-navbar{
     display: flex;
     flex-direction: row;
@@ -70,7 +73,7 @@ a{
         font-size: 2rem;
     }
  }
- @media(max-width:525px) {
+ @media(max-width:620px) {
     .header{
         justify-content:space-evenly ;
     }
@@ -85,4 +88,20 @@ a{
         line-height: normal;
     }
 
+ }
+ @media (max-width: 425px) {
+    .header{
+        justify-content: space-between;
+    }
+    .header-title{
+        margin-left: 45px;
+    }
+    .header p{
+        display: inline;
+        font-size:2rem;
+        margin-right: 45px;
+    }
+    .header-navbar{
+        display: none;
+    }
  }
