@@ -13,7 +13,7 @@ const Home: React.FC = () => {
                 <h1 className='home-article-title'>¡Hola, soy Axel Rojas!👋🇦🇷</h1>  
                 <p className='home-article-text'>Desarrollo principalmente en <span className='home-article__accent'>React&TypeScript</span>. Estoy en tercer año de Licenciatura en informática, este 2025 me recibo como Analista Programador Universitario.</p>
                 <div className='home-article-footer'>
-                    <a className="home-article-btn"href="">DESCARGA MI CV ⇓</a>
+                    <a className="home-article-btn"href="">VER MI CV ⇓</a>
                     <div className='home-article-icons'>
                         <IoLogoReact className='home-article-icon' color='#1c8911' size={'2rem'} title='React' />
                         <SiTypescript className='home-article-icon' color='#1c8911' size={'2rem'} title='Typescript' />

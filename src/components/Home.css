@@ -20,6 +20,7 @@
 }
 .home-article-btn{
     padding: 0.5rem 1.3rem;
+    text-wrap-mode: nowrap;
     font-weight: 700;
     font-size: 1rem;
     text-decoration: none;
@@ -77,8 +78,10 @@
 }
 .home-article-icons{
     display: flex;
+    justify-content: start;
+    width: 100%;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2.1rem;
 }
 
 @media(max-width:1024px){
@@ -154,10 +157,6 @@
     .home-article-text{
         font-size: 0.7rem;
         margin: 0.5rem 0;
-    }
-    .home-article-btn{
-        padding: 0.15rem 0.35rem;
-        font-size: 0.7rem;
     }
 }
 @media (max-width: 430px){

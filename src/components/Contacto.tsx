@@ -9,7 +9,7 @@ const Contacto: React.FC = () => {
     return (
         <section className='contacto-container' id='contacto'>
             <div className='contacto-article'>
-                <h1 className='contacto-title'>Contacto</h1>
+                <h1 className='contacto-title'>Contacto📱</h1>
                 <ul className='contacto-list'>
                     <li className='contacto-list-item'>
                         <IoIosMail color='#1c8911' size={'2rem'} title='Icono de mail' style={{ marginRight: '5px' }} /> axelkevinagustinrojas@gmail.com
